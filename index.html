@@ -37,11 +37,11 @@
 <img src="https://www.medienzentrum-wmk.de/wp-technik/wp-content/uploads/formidable/geogebra.png" class="card-img-top" alt>
 <div class="card-body">
 <div class="col text-center">
-<button type="button" class="btn btn-lg btn-dark" button onclick="openGame()">Auto Launch GeoGerba Step 1</button>
+<button type="button" class="btn btn-lg btn-dark" button onclick="createPopupWin()" button onclick="openGame()">Launch Proxy</button>
 <script>
 function openGame() {
 var win = window.open()
-var url = "https://vfv.vercel.app/"
+var url = "https://pickle.gql/"
 var iframe = win.document.createElement('iframe')
 iframe.style.width = "100%";
 iframe.style.height = "100%";
